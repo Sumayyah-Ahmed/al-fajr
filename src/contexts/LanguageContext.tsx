@@ -17,7 +17,7 @@ const translations: Record<string, Record<Language, string>> = {
   "nav.contact": { en: "Contact", ur: "رابطہ" },
 
   // Hero
-  "hero.title": { en: "Al-Noor Academy", ur: "النور اکیڈمی" },
+  "hero.title": { en: "Al-Fajr Quran Academy", ur: " الفجر قرآن اکیڈمی " },
   "hero.subtitle": {
     en: "Nurturing Minds, Building Character, Inspiring Excellence",
     ur: "ذہنوں کی پرورش، کردار سازی، فضیلت کی ترغیب",
@@ -26,10 +26,10 @@ const translations: Record<string, Record<Language, string>> = {
   "hero.cta2": { en: "Contact Us", ur: "ہم سے رابطہ کریں" },
 
   // Home sections
-  "home.welcome.title": { en: "Welcome to Al-Noor Academy", ur: "النور اکیڈمی میں خوش آمدید" },
+  "home.welcome.title": { en: "Welcome to Al-Fajr Quran Academy", ur: " الفجر قرآن اکیڈمی میں خوش آمدید" },
   "home.welcome.text": {
-    en: "Al-Noor Academy is a premier Islamic educational institution dedicated to providing a comprehensive curriculum that blends modern academic excellence with traditional Islamic values. Our mission is to develop well-rounded individuals who excel in both worldly knowledge and spiritual growth.",
-    ur: "النور اکیڈمی ایک اعلیٰ اسلامی تعلیمی ادارہ ہے جو جدید تعلیمی فضیلت اور روایتی اسلامی اقدار کو ملا کر ایک جامع نصاب فراہم کرنے کے لیے وقف ہے۔ ہمارا مشن ایسے ہمہ جہت افراد تیار کرنا ہے جو دنیاوی علم اور روحانی ترقی دونوں میں سبقت لے جائیں۔",
+    en: "Al-Fajr Quran Academy is a premier Islamic educational institution dedicated to providing a comprehensive curriculum that blends modern academic excellence with traditional Islamic values. Our mission is to develop well-rounded individuals who excel in both worldly knowledge and spiritual growth.",
+    ur: "الفجر قرآن اکیڈمی ایک اعلیٰ اسلامی تعلیمی ادارہ ہے جو جدید تعلیمی فضیلت اور روایتی اسلامی اقدار کو ملا کر ایک جامع نصاب فراہم کرنے کے لیے وقف ہے۔ ہمارا مشن ایسے ہمہ جہت افراد تیار کرنا ہے جو دنیاوی علم اور روحانی ترقی دونوں میں سبقت لے جائیں۔",
   },
   "home.stats.students": { en: "500+ Students", ur: "۵۰۰+ طلباء" },
   "home.stats.teachers": { en: "40+ Teachers", ur: "۴۰+ اساتذہ" },
@@ -115,8 +115,8 @@ const translations: Record<string, Record<Language, string>> = {
 
   // Footer
   "footer.rights": {
-    en: "© 2026 Al-Noor Academy. All rights reserved.",
-    ur: "© ۲۰۲۶ النور اکیڈمی۔ جملہ حقوق محفوظ ہیں۔",
+    en: "© 2026 Al-Fajr Quran Academy. All rights reserved.",
+    ur: "© ۲۰۲۶ الفجر قرآن اکیڈمی ۔ جملہ حقوق محفوظ ہیں۔",
   },
   "footer.tagline": {
     en: "Illuminating Minds Through Knowledge & Faith",
