@@ -102,8 +102,8 @@ const translations: Record<string, Record<Language, string>> = {
   "contact.send": { en: "Send Message", ur: "پیغام بھیجیں" },
   "contact.address.title": { en: "Our Address", ur: "ہمارا پتہ" },
   "contact.address": {
-    en: "123 Knowledge Lane, Education District, Lahore, Pakistan",
-    ur: "۱۲۳ نالج لین، ایجوکیشن ڈسٹرکٹ، لاہور، پاکستان",
+    en: "123 Knowledge Lane, Education District, Bhopal",
+    ur: "۱۲۳ نالج لین، ایجوکیشن ڈسٹرکٹ، بھوپال ",
   },
   "contact.phone.title": { en: "Phone", ur: "فون" },
   "contact.phone": { en: "+92 42 1234 5678", ur: "+۹۲ ۴۲ ۱۲۳۴ ۵۶۷۸" },

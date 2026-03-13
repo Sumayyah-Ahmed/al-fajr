@@ -27,7 +27,7 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src={logoImg} alt="Al-Noor Academy" className="h-10 w-10" />
           <span className="font-heading text-xl font-bold text-primary">
-            {language === "ur" ? "النور اکیڈمی" : "Al-Noor Academy"}
+            {language === "ur" ? "الفجر قرآن اکیڈمی" : "Al-Fajr Quran Academy"}
           </span>
         </Link>
 
