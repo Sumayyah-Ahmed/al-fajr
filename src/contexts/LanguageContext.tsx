@@ -32,7 +32,7 @@ const translations: Record<string, Record<Language, string>> = {
     ur: "الفجر قرآن اکیڈمی ایک اعلیٰ اسلامی تعلیمی ادارہ ہے جو جدید تعلیمی فضیلت اور روایتی اسلامی اقدار کو ملا کر ایک جامع نصاب فراہم کرنے کے لیے وقف ہے۔ ہمارا مشن ایسے ہمہ جہت افراد تیار کرنا ہے جو دنیاوی علم اور روحانی ترقی دونوں میں سبقت لے جائیں۔",
   },
   "home.stats.students": { en: "500+ Students", ur: "۵۰۰+ طلباء" },
-  "home.stats.teachers": { en: "40+ Teachers", ur: "۴۰+ اساتذہ" },
+  "home.stats.teachers": { en: "4+ Teachers", ur: "۴+ اساتذہ" },
   "home.stats.years": { en: "15+ Years", ur: "۱۵+ سال" },
   "home.stats.programs": { en: "20+ Programs", ur: "۲۰+ پروگرامز" },
 
@@ -117,10 +117,6 @@ const translations: Record<string, Record<Language, string>> = {
   "footer.rights": {
     en: "© 2026 Al-Fajr Quran Academy. All rights reserved.",
     ur: "© ۲۰۲۶ الفجر قرآن اکیڈمی ۔ جملہ حقوق محفوظ ہیں۔",
-  },
-  "footer.tagline": {
-    en: "Illuminating Minds Through Knowledge & Faith",
-    ur: "علم اور ایمان کے ذریعے ذہنوں کو روشن کرنا",
   },
 
   // Theme
