@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Sun, Moon, Languages } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useTheme } from "@/contexts/ThemeContext";
 import { Button } from "@/components/ui/button";
@@ -49,11 +49,11 @@ const Header = () => {
         <div className="flex items-center gap-2">
           <Button
             variant="ghost"
-            size="icon"
+            size="sm"
             onClick={() => setLanguage(language === "en" ? "ur" : "en")}
-            title={language === "en" ? "اردو" : "English"}
+            className="font-semibold text-sm min-w-[3.5rem]"
           >
-            <Languages className="h-5 w-5" />
+            {language === "en" ? "اُردُو" : "EN"}
           </Button>
           <Button variant="ghost" size="icon" onClick={toggleTheme}>
             {theme === "light" ? <Moon className="h-5 w-5" /> : <Sun className="h-5 w-5" />}
