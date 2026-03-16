@@ -5,8 +5,6 @@ const subjects = [
   { key: "islamic", icon: BookMarked },
   { key: "arabic", icon: Languages },
   { key: "quran", icon: Scroll },
-  { key: "math", icon: Calculator },
-  { key: "science", icon: FlaskConical },
   { key: "english", icon: PenTool },
   { key: "urdu", icon: BookOpen },
   { key: "cs", icon: Monitor },
