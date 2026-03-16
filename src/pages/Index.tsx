@@ -21,7 +21,7 @@ const Index = () => {
         <img
           src={heroImg}
           alt="Al-Noor Academy Campus"
-          className="absolute inset-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover object-center"
           loading="eager"
         />
         <div className="absolute inset-0 bg-foreground/60" />
@@ -39,7 +39,6 @@ const Index = () => {
             <Button asChild variant="secondary" size="lg" className="bg-background text-foreground hover:bg-background/90 font-semibold text-base px-8">
               <Link to="/contact">{t("hero.cta2")}</Link>
             </Button>
-            
           </div>
         </div>
       </section>
