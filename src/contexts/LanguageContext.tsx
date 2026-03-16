@@ -118,6 +118,10 @@ const translations: Record<string, Record<Language, string>> = {
     en: "© 2026 Al-Fajr Quran Academy. All rights reserved.",
     ur: "© ۲۰۲۶ الفجر قرآن اکیڈمی ۔ جملہ حقوق محفوظ ہیں۔",
   },
+  "footer.tagline": {
+    en: "Illuminating Minds Through Knowledge & Faith",
+    ur: "علم اور ایمان کے ذریعے ذہنوں کو روشن کرنا",
+  },
 
   // Theme
   "theme.light": { en: "Light", ur: "روشن" },
