@@ -21,35 +21,20 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
+      <div className="container flex h-14 items-center justify-between px-3 sm:px-4">
         <Link to="/" className="flex items-center gap-2 shrink-0">
-          <img src={logoImg} alt="Al-Noor Academy" className="h-10 w-10" />
-          <span className="font-heading text-lg sm:text-xl font-bold text-primary">
+          <img src={logoImg} alt="Al-Noor Academy" className="h-8 w-8 sm:h-10 sm:w-10" />
+          <span className="font-heading text-base sm:text-xl font-bold text-primary">
             {language === "ur" ? "النور اکیڈمی" : "Al-Noor Academy"}
           </span>
         </Link>
 
-        {/* Nav — always visible, scrollable on small screens */}
-        <nav className="flex items-center gap-0.5 sm:gap-1 overflow-x-auto scrollbar-hide mx-2">
-          {navLinks.map((link) => (
-            <Link
-              key={link.path}
-              to={link.path}
-              className={`whitespace-nowrap rounded-md px-2.5 sm:px-4 py-2 text-xs sm:text-sm font-medium transition-colors hover:bg-accent/10 hover:text-accent ${
-                isActive(link.path) ? "bg-primary/10 text-primary font-semibold" : "text-foreground"
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
-        </nav>
-
-        <div className="flex items-center gap-1 sm:gap-2 shrink-0">
+        <div className="flex items-center gap-1 shrink-0">
           <Button
             variant="ghost"
             size="sm"
             onClick={() => setLanguage(language === "en" ? "ur" : "en")}
-            className="font-semibold text-sm min-w-[3.5rem]"
+            className="font-semibold text-sm min-w-[3rem]"
           >
             {language === "en" ? "اُردُو" : "EN"}
           </Button>
@@ -58,6 +43,20 @@ const Header = () => {
           </Button>
         </div>
       </div>
+
+      <nav className="container flex items-center justify-center gap-1 overflow-x-auto scrollbar-hide border-t border-border/50 px-3 py-1.5 sm:py-2">
+        {navLinks.map((link) => (
+          <Link
+            key={link.path}
+            to={link.path}
+            className={`whitespace-nowrap rounded-md px-3 sm:px-4 py-1.5 text-xs sm:text-sm font-medium transition-colors hover:bg-accent/10 hover:text-accent ${
+              isActive(link.path) ? "bg-primary/10 text-primary font-semibold" : "text-foreground"
+            }`}
+          >
+            {link.label}
+          </Link>
+        ))}
+      </nav>
     </header>
   );
 };
