@@ -6,6 +6,7 @@ import heroImg from "@/assets/hero-school.jpg";
 
 const Index = () => {
   const { t } = useLanguage();
+  
 
   const stats = [
     { icon: GraduationCap, label: t("home.stats.students") },

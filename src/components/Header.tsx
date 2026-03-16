@@ -5,6 +5,7 @@ import { useTheme } from "@/contexts/ThemeContext";
 import { Button } from "@/components/ui/button";
 import logoImg from "@/assets/logo.png";
 
+
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();
   const { theme, toggleTheme } = useTheme();
@@ -25,7 +26,7 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-2 shrink-0">
           <img src={logoImg} alt="Al-Noor Academy" className="h-8 w-8 sm:h-10 sm:w-10" />
           <span className="font-heading text-base sm:text-xl font-bold text-primary">
-            {language === "ur" ? "النور اکیڈمی" : "Al-Noor Academy"}
+            {language === "ur" ? " الفجر قرآن اکیڈمی" : "Al-Fajr Quran Academy"}
           </span>
         </Link>
 
