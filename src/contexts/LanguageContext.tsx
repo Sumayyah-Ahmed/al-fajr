@@ -31,10 +31,10 @@ const translations: Record<string, Record<Language, string>> = {
     en: "Al-Fajr Quran Academy is a premier Islamic educational institution dedicated to providing a comprehensive curriculum that blends modern academic excellence with traditional Islamic values. Our mission is to develop well-rounded individuals who excel in both worldly knowledge and spiritual growth.",
     ur: "الفجر قرآن اکیڈمی ایک اعلیٰ اسلامی تعلیمی ادارہ ہے جو جدید تعلیمی فضیلت اور روایتی اسلامی اقدار کو ملا کر ایک جامع نصاب فراہم کرنے کے لیے وقف ہے۔ ہمارا مشن ایسے ہمہ جہت افراد تیار کرنا ہے جو دنیاوی علم اور روحانی ترقی دونوں میں سبقت لے جائیں۔",
   },
-  "home.stats.students": { en: "500+ Students", ur: "۵۰۰+ طلباء" },
+  "home.stats.students": { en: "200+ Students", ur: "۲۰۰+ طلباء" },
   "home.stats.teachers": { en: "4+ Teachers", ur: "۴+ اساتذہ" },
   "home.stats.years": { en: "15+ Years", ur: "۱۵+ سال" },
-  "home.stats.programs": { en: "20+ Programs", ur: "۲۰+ پروگرامز" },
+  "home.stats.programs": { en: "15+ Programs", ur: "۱۵+ پروگرامز" },
 
   // Subjects
   "subjects.title": { en: "Our Subjects", ur: "ہمارے مضامین" },
